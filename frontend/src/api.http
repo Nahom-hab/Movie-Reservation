@@ -1,0 +1,141 @@
+PUT http://localhost:6000/api/setting/6745808197b958d5b1c26aac HTTP/1.1
+Content-Type: application/json
+Accept: application/json
+
+{
+  "buyingTicket": true,
+  "movie_batch": 3,
+  "Movie_Day":"Friday"
+}
+
+
+
+# GET  http://localhost:3000/api/setting/batch/1 HTTP/1.1
+# Accept: application/json
+
+
+# POST  http://localhost:6000/api/movies/batch HTTP/1.1
+# Content-Type: application/json
+# Accept: application/json
+
+# {
+#   "Movie_batch": 2,
+#     "movies": [
+#         {
+#             "name": "Happy Death Day",
+#             "description": "t stars Jessica Rothe and Israel Broussard. The film follows college student Tree Gelbman, who is murdered on the night of her birthday but begins reliving the day repeatedly, at which point she sets out to find the killer and stop her death. Jason Blum serves as a producer through his Blumhouse Productions company.",
+#             "img": "https://i.pinimg.com/736x/0e/41/23/0e41232e95fd4ce2d986652a8bdd7b5a.jpg",
+#             "releaseYear": 2017,
+#             "genre": ["Murder", "mystery", "Suspense"],
+#             "duration": "1h 36m",
+#             "youtube_url": "https://www.youtube.com/embed/1NTaDm3atkc?si=XIBtG2I65QoE08N2",
+#             "rating": {
+#                 "tom": 71,
+#                 "imdb": 6.6
+#             },
+#             "cast": [
+#                 {
+#                     "name": "Jessica Rothe",
+#                     "img": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTOjaxFGOC18rwYAQd6WYu_l5-1BXOeegR3mNhfQQnUxvF5I9rs3bD70yqaf2rpEjXDUNdIhB3dKadkiWYZI7dmf7dwXYURjLvnM3TFa5w"
+#                 },
+#                 {
+#                     "name": "Israel Broussard",
+#                     "img": "https://people.com/thmb/-04Hy6fqgcLoWjcflgvQWZVPwg0=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():focal(693x0:695x2)/israel-broussard-ac0eea0aed694a209522acfd106a83e6.jpg"
+#                 },
+#                 {
+#                     "name": "Rachel Lynn Matthews",
+#                     "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXv4wfD-IArc2Il4oAvfbkjf1ZWpVooWA1q_dVBJEtqUuvm1XNkOhtkRa5EGRfyN186FU&usqp=CAU"
+#                 }
+#                 ,
+#                 {
+#                     "name": "Ruby Modine",
+#                     "img": "https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcTbrINKqHTMXO1C5uVOlm7WMEhR6VPQPSa4M3UxAIVdemWAONQwhpLH-eBIfGj-Px0_QnFi8d1Ggd5dnhs"
+#                 },
+#                 ,
+#                 {
+#                     "name": "Phi Vu",
+#                     "img": "https://pbs.twimg.com/profile_images/1618119778362695680/mFwVVTKH_400x400.jpg"
+#                 }
+#             ],
+#             "director": "Christopher Landon",
+#             "votes": 10,
+#             "voters": []
+#         },
+#         {
+#             "name": "We Live in Time",
+#             "description": " a non-linear romantic drama film that follows the complex love story between Almut (Florence Pugh), a chef, and Tobias (Andrew Garfield), a recently divorced man, who meet when Almut accidentally hits him with her car",
+#             "img": "https://i.pinimg.com/736x/57/d4/af/57d4af2b22e32f802a7a6e3d080b6944.jpg",
+#             "releaseYear": 2024,
+#             "genre": ["Romance", "Comedy", "Drama"],
+#             "duration": "2h 32m",
+#             "youtube_url": "https://www.youtube.com/embed/bS0Clau5700?si=oLzaXzhLr7aHuAGT",
+#             "rating": {
+#                 "tom": 78,
+#                 "imdb": 7.1
+#             },
+#             "cast": [
+#                 {
+#                     "name": "Andrew Garfield",
+#                     "img": "https://media.themoviedb.org/t/p/w500/5ydZ6TluPtxlz5G8nlWMB7SGmow.jpg"
+#                 },
+#                 {
+#                     "name": "Florence Pugh",
+#                     "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMnFBsPfujNobup4pg8pl3J-L82BB0pSAQ5_FabT6NI3m8j1xXA8-OZl8mJTBiWbyKQQs&usqp=CAU"
+#                 },
+#                 {
+#                     "name": "Marama Corlett",
+#                     "img": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTJYBirzMJGIw2ujfjmqja4dbG6fb-CEv3XEXH6HXkfCrlEVkZfNWJCd9Z6262USY5DWTWfcCs-KZfjv9Gfbx2kYQ"
+#                 }
+#                 ,
+#                 {
+#                     "name": "Lee Braithwaite",
+#                     "img": "https://m.media-amazon.com/images/M/MV5BNWI5NDY0YWYtYmQ1OS00MjJiLWE4MmUtZjZjYmE2MzhhNWM4XkEyXkFqcGc@._V1_.jpg"
+#                 },
+
+#             ],
+#             "director": "John Crowley",
+#             "votes": 10,
+#             "voters": []
+#         },
+#         {
+#             "name": "The Greatest Showman",
+#             "description": "a 2017 musical biographical film that tells the story of P.T. Barnum, a visionary showman who rose from humble beginnings to create the Barnum & Bailey Circus, showcasing unique individuals and captivating audiences with a spectacular spectacle that celebrated the oddities of society, all while grappling with themes of acceptance and the pursuit of fame",
+#             "img": "https://i.pinimg.com/736x/f2/2f/2a/f22f2a73632a1d1935fc0d85a952fca5.jpg",
+#             "releaseYear": 2017,
+#             "genre": ["Musical", "Thriller "],
+#             "duration": "1h 45m",
+#             "youtube_url": "https://www.youtube.com/embed/EodWwczRIe4?si=VKxWpYGLf6TmtQpZ",
+#             "rating": {
+#                 "tom": 53,
+#                 "imdb": 7.5
+#             },
+#             "cast": [
+#                 {
+#                     "name": "Hugh Jackman",
+#                     "img": "https://www.parismatch.com/lmnr/var/pm/public/media/image/Hugh-Jackman_0.jpg?VersionId=qGT6mCuhdXR..A7wqlM8crmBB58UKKJ."
+#                 },
+#                 {
+#                     "name": "Zendaya",
+#                     "img": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSb7OLTTdKO490QrNS6jKGzQ9t9xIOhfO46KBZrASxLqMqAg_A5oH_WyGah0D3TTKYiGzpk6NMbBerA2aqjl6gUqPCRHnKp_YyPSoVdAQ"
+#                 },
+#                 {
+#                     "name": "Zac Efron",
+#                     "img": "https://hips.hearstapps.com/hmg-prod/images/zac-efron-attends-the-premiere-of-a24s-the-iron-claw-at-the-news-photo-1700169722.jpg?crop=0.856xw:0.571xh;0.0513xw,0.127xh&resize=1200:*"
+#                 },
+
+#                 {
+#                     "name": "Michelle Williams",
+#                     "img": "https://encrypted-tbn3.gstatic.com/licensed-image?q=tbn:ANd9GcTvltPgZmMgoC2YYIOCv-ahD4uKs4wdStS6LOMiPS9KMYTzRetvqe8ypXhftAvIA12EZRrpaQcEn4-nfEM"
+#                 },
+
+#                 {
+#                     "name": "Rebecca Ferguson",
+#                     "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsJlOFwf_1vstoUy2EZH36xkPJY7aiGu2pOjc8-u5ELZ-rDV7E9HDlvDN1PWRUDDOgcnc&usqp=CAU"
+#                 }
+#             ],
+#             "director": "Michael Gracey",
+#             "votes": 10,
+#             "voters": []
+#         }
+#     ]
+# }
